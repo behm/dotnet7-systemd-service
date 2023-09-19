@@ -1,0 +1,9 @@
+[Unit]
+Description=Hello Linux Service
+
+[Service]
+Type=notify
+ExecStart=/usr/sbin/hellolinux/HelloLinux
+
+[Install]
+WantedBy=multi-user.target
